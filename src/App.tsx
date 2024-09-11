@@ -24,15 +24,15 @@ function App() {
           element: <Landing />,
         },
         {
-          path: "/products",
+          path: "products",
           element: <Products />,
         },
         {
-          path: "/products/:id",
+          path: "products/:id",
           element: <SingleProduct />,
         },
         {
-          path: "/cart",
+          path: "cart",
           element: <Cart />,
         },
         {
@@ -40,11 +40,11 @@ function App() {
           element: <About />,
         },
         {
-          path: "/checkout",
+          path: "checkout",
           element: <Checkout />,
         },
         {
-          path: "/order",
+          path: "orders",
           element: <Orders />,
         },
       ],
@@ -56,6 +56,10 @@ function App() {
     {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "*",
+      element: <Error />,
     },
   ]);
 
