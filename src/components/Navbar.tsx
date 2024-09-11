@@ -7,7 +7,7 @@ const Navbar = () => {
         <Logo />
         <LinksDropdown />
         <NavLinks />
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-x-1">
           <ModeToggle />
           <CartButton />
         </div>
