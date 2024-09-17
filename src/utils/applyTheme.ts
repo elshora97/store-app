@@ -1,6 +1,6 @@
 import { Theme } from "@/features/theme/themeSlice";
 
-function applyTheme(theme: Theme) {
+export const applyTheme = (theme: Theme) => {
   const root = window.document.documentElement;
   root.classList.remove("light", "dark");
 
@@ -14,6 +14,4 @@ function applyTheme(theme: Theme) {
   }
 
   root.classList.add(theme);
-}
-
-export { applyTheme };
+};
