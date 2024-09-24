@@ -56,3 +56,8 @@
    ```
    http://localhost:4173
    ```
+
+## Live Demo
+
+You can access the live version of the app [here](https://fineestore.netlify.app/).
+
